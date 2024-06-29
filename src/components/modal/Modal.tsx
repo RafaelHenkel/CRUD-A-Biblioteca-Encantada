@@ -1,6 +1,6 @@
-import React from "react";
-import ButtonDefault from "../ButtonDefault";
-import ModalStyled from "./ModalStyled";
+import React from 'react';
+import ButtonDefault from '../ButtonDefault';
+import ModalStyled from './ModalStyled';
 
 interface ModalProps {
   title: string;
@@ -14,14 +14,14 @@ function Modal({ title, children, action, actionConfirm }: ModalProps) {
     <ModalStyled>
       <div
         style={{
-          height: "300px",
-          width: "400px",
-          backgroundColor: "#fff",
-          color: "#333",
-          padding: "20px",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
+          height: '600px',
+          width: '400px',
+          backgroundColor: '#fff',
+          color: '#333',
+          padding: '20px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
         }}
       >
         <div>
